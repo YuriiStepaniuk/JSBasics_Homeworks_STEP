@@ -106,6 +106,12 @@
 //   ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0)
 // ) {
 //   console.log(`Next day is: 01.${month + 1}.${year} (leap year)`);
+// } else if (
+//   month === 2 &&
+//   day === 28 &&
+//   ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0)
+// ) {
+//   console.log(`Next day is: ${day + 1}.${month}.${year}`);
 // } else if (month === 2 && day === 28 && (year % 4 != 0 || year % 400 != 0)) {
 //   console.log(`Next day is: 01.${month + 1}.${year} (not leap year)`);
 // } else if (month === 2 && day > 28 && (year % 4 != 0 || year % 400 != 0)) {

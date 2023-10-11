@@ -1,0 +1,21 @@
+.container {
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    width: 40%;
+    text-align: center;
+    border: 3px solid black;
+}
+
+h3 {
+    color: green;
+}
+
+h4:nth-child(even) {
+    color: blue;
+    
+}
+
+h4:nth-child(odd) {
+    color: rgb(54, 203, 253);
+    
+}

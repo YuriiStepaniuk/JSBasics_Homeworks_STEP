@@ -1,0 +1,28 @@
+.line-task3 {
+    display: flex;
+}
+
+.sign {
+    width: 50px;
+    text-align: center;
+}
+
+.roles {
+    display: flex;
+   
+}
+
+.admin {
+    position: absolute;
+opacity: 0;
+}
+
+.user {
+ position: absolute;
+ opacity: 0;
+}
+
+.guest {
+    position: absolute;
+    opacity: 0;
+}

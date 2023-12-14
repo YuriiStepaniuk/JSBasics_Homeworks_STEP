@@ -1,0 +1,34 @@
+table,
+div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+div {
+  margin-top: 20px;
+}
+
+tr {
+  margin: 0;
+  padding: 0;
+}
+
+td {
+  height: 50;
+  border: 2px solid aquamarine;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px;
+}
+
+.text {
+  width: 560px;
+}
+
+input {
+  height: 24px;
+  border: 1px solid grey;
+}
+button {
+  padding: 5px 20px;
+}
